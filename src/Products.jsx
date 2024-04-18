@@ -38,8 +38,7 @@ const Products = () => {
           <div key={index}>
             <div className='card-img-top'>
               <img src={product.src} alt="" />
-              <p className='card-title'>{product.name} | {product.price}</p>
-            
+              <p className='card-title'>{product.name} | ₹ {product.price}</p>
               <div className='card-body'>
                 <button className='neumorphic-button' onClick={() => handleaddProduct(product)}>Add</button>
                 <button className='neumorphic-button' onClick={() => handledeleteProduct(product)}>Remove</button>
