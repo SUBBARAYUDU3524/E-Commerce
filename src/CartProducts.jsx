@@ -4,6 +4,8 @@ import { deleteProduct } from './Redux/Reducer/CartReducer'; // assuming deleteP
 import "./App.css";
 import { toast,ToastContainer} from 'react-toastify'; 
 import 'react-toastify/dist/ReactToastify.css'; 
+import { Container,Navbar,Nav } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 const CartProducts = () => {
   const jsonData = useSelector(state => state.cartReducer.cartValues);
@@ -15,6 +17,23 @@ const CartProducts = () => {
   };
 
   return (
+    <div>
+    <Navbar  bg="dark" variant="dark" expand="lg" style={{ minHeight: "70px" }}>
+    <Container fluid>
+        <Navbar.Brand as={NavLink} to="/" className="mr-auto fs-3">
+          E-COMMERCE
+        </Navbar.Brand>
+        <Nav className="mx-auto">
+          <NavLink
+            to="/products"
+            style={{ fontSize: "18px", marginRight: "10px" }}
+            className="nav-link"
+          >
+           Back To Products Page
+          </NavLink>
+        </Nav>
+      </Container>
+    </Navbar>
     <div className='container'>
       {jsonData.length > 0 ? jsonData.map(product =>
         <div  key={product.id}>
@@ -29,7 +48,9 @@ const CartProducts = () => {
         ) : <div style={{ textAlign: "center", color: "red" }}>NO CART ITEMS PRESENT HERE, PLEASE ADD ITEMS</div>}
         <ToastContainer/>
         </div>
+        </div>
   );
+
 };
 
 export default CartProducts;
