@@ -1,34 +1,47 @@
-
-   export default [
-        {
-            id:1,
-            name:"Phone1",
-            src:"https://m.media-amazon.com/images/I/51sjwpRR2FL.jpg",
-            price:"17999"
-        },    {
-            id:2,
-            name:"Phone2",
-            src:"https://m.media-amazon.com/images/I/51sjwpRR2FL.jpg",
-            price:"17999"
-        },    {
-            id:3,
-            name:"Phone3",
-            src:"https://m.media-amazon.com/images/I/51sjwpRR2FL.jpg",
-            price:"17999"
-        },    {
-            id:4,
-            name:"Phone4",
-            src:"https://m.media-amazon.com/images/I/51sjwpRR2FL.jpg",
-            price:"17999"
-        },    {
-            id:5,
-            name:"Phone5",
-            src:"https://m.media-amazon.com/images/I/51sjwpRR2FL.jpg",
-            price:"17999"
-        },    {
-            id:6,
-            name:"Phone6",
-            src:"https://m.media-amazon.com/images/I/51sjwpRR2FL.jpg",
-            price:"17999"
-        }
-    ]
+export default[
+    {  id:1,
+      name:"Item1",
+      src:"https://www.sahivalue.com/product-images/14+pro+max.jpg/293890000021697778/400x400",
+      price:450
+    },
+    {  id:2,
+      name:"Item2",
+      src:"https://www.sahivalue.com/product-images/14+pro+max.jpg/293890000021697778/400x400",
+      price:450
+    },
+    {  id:3,
+      name:"Item3",
+      src:"https://www.sahivalue.com/product-images/14+pro+max.jpg/293890000021697778/400x400",
+      price:450
+    },
+    {  id:4,
+      name:"Item4",
+      src:"https://www.sahivalue.com/product-images/14+pro+max.jpg/293890000021697778/400x400",
+      price:450
+    },
+    {  id:5,
+      name:"Item5",
+      src:"https://www.sahivalue.com/product-images/14+pro+max.jpg/293890000021697778/400x400",
+      price:450
+    },
+    {  id:6,
+      name:"Item6",
+      src:"https://www.sahivalue.com/product-images/14+pro+max.jpg/293890000021697778/400x400",
+      price:450
+    },
+    {  id:7,
+      name:"Item7",
+      src:"https://www.sahivalue.com/product-images/14+pro+max.jpg/293890000021697778/400x400",
+      price:450
+    },
+    {  id:8,
+      name:"Item8",
+      src:"https://www.sahivalue.com/product-images/14+pro+max.jpg/293890000021697778/400x400",
+      price:450
+    },
+    {  id:9,
+      name:"Item9",
+      src:"https://www.sahivalue.com/product-images/14+pro+max.jpg/293890000021697778/400x400",
+      price:450
+    }
+  ]
